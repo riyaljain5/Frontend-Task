@@ -27,7 +27,7 @@ justify-content: center;
 margin: auto;
 margin-top: 170px;
 text-align: center;
-height: 100vh;
+height: 80vh;
 
   max-width: 780px;
 

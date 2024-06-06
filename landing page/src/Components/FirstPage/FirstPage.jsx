@@ -29,6 +29,7 @@ const MainContainer = styled.main`
   margin: 0 auto;
   max-width: 1920px;
   padding: 0 20px;
+  
 
   .nav {
     width: 100%;

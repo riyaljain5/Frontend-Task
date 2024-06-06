@@ -27,6 +27,9 @@ const Page4Container = styled.main`
     justify-content: center;
     padding: 20px;
 
+   
+  
+
     .content {
         display: flex;
         gap: 10px;

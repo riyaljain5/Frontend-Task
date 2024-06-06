@@ -48,22 +48,31 @@ export default TenthPage
 const Page10Container = styled.div`
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 80vh;
+  
+
 `
 const Content = styled.div`
+margin-top: 32px;
   text-align: center;
-  max-width: 720px;
+  height: 50vh;
+  width: 50vw;
   padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `
 const DropdownContainer = styled.div`
   background-color: ${props => (props.isOpen ? '#007bff' : 'white')};
   color: ${props => (props.isOpen ? 'white' : 'black')};
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  box-shadow: ${props => (props.isOpen ? '0 4px 8px rgba(0, 0, 0, 0.1)' : 'none')};
+  box-shadow: ${props => (props.isOpen ? '0 4px 16px rgba(0, 123, 255, 0.7)' : 'none')};
   padding: 10px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+
 `
 
 const DropdownHeader = styled.div`

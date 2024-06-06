@@ -16,8 +16,8 @@ const NinthPage = () => {
   </div>
   <div className='info'>
     <User> 
-      <img src="/images/Avatar of team.png" alt="avatar" />
-      <h1>Tabish Khan</h1>
+      <div className='user-detail'><img src="/images/Avatar of team.png" alt="avatar" />
+      <h2>Tabish Khan</h2></div>
       <img src="/images/Symbol.png" alt="symbol" />
 
     </User>
@@ -73,15 +73,29 @@ const Frame = styled.div`
 `
 const User = styled.div`
   display: flex;
-  margin-bottom: 32px;
-  align-items: start;
+  margin-bottom: 12px;
+ 
+  height:80px;
+  width:100%;
+  justify-content:space-between;
 
-  h1{
+  h2{
     font-size: 18px;
     font-weight: bold;
   }
   p{
     font-size: 24px;
+  }
+    img{
+    height:62px;
+    width:62px;
+    }
+
+  .user-detail{
+  display:flex;
+  left:0;
+  margin:0;
+  margin-right:20px;
   }
 
 `
