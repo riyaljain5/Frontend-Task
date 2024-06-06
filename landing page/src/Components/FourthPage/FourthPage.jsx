@@ -29,7 +29,7 @@ const Page4Container = styled.main`
 
     .content {
         display: flex;
-        gap: 150px;
+        gap: 10px;
         margin-top: 90px;
 
         @media (max-width: 1024px) {
@@ -43,8 +43,9 @@ const Page4Container = styled.main`
         }
 
         img {
-            max-width: 100%;
+           
             height: auto;
+            object-fit: cover;
         }
     }
 `

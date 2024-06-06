@@ -40,6 +40,7 @@ export default SevenCompo
 const MainContainer = styled.div`
 display:flex;
 flex-direction: column;
+text-align: center;
 
 
 

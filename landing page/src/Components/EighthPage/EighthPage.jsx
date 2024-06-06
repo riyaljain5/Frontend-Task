@@ -2,11 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import { Button } from '../../styled/Button'
 import Heading from '../../styled/Heading'
+import BackgroundImage from '/images/bg/Ellipse 193.png'
 
 const EighthPage = () => {
   return (
     <Container>
-    <Heading
+    <Heading className="Heading"
             title="Your Peace of Minds"
             subtitle="Through our conversion-focused strategies, we ensure that property seekers are not just visitors, but engaged prospects ready to make their next move in the real estate market"
         />
@@ -19,8 +20,16 @@ const EighthPage = () => {
 export default EighthPage
 
 const Container =  styled.div`
+display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
+margin: auto;
+margin-top: 170px;
+text-align: center;
+height: 100vh;
+
+  max-width: 780px;
 
 .btn {
   align-self: center;
@@ -28,7 +37,10 @@ justify-content: center;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+  margin-bottom: 220px;
 }
   
+  .Heading{
+    max-width: 780px;
+  }
 `
-

@@ -39,16 +39,16 @@ export default ElementCompo
 const MainContainer = styled.div`
 display:flex;
 flex-direction: column;
-
+text-align: center;
 
 
 .first{
   display: flex;
-  margin-right: 32px;
+
 
 }
 .second{
   display: flex;
-  margin-right: 32px;
+
 }
 `

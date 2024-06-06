@@ -59,6 +59,7 @@ const CardComponent = styled.div`
     display: flex;
     flex-direction: column;
     gap: 32px;
+    margin-top: 72px;
 
     .first, .second {
         display: flex;

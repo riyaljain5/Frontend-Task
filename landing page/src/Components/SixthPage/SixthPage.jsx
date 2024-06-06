@@ -1,6 +1,7 @@
 import React from 'react'
 import Heading from '../../styled/Heading'
 import ElementCompo from './ElementCompo'
+import styled from 'styled-components'
 
 const SixthPage = () => {
   return (
